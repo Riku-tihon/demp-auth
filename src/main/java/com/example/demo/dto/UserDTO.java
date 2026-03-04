@@ -1,0 +1,21 @@
+package com.example.demo.dto;
+
+
+import lombok.*;
+
+import java.util.UUID;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class UserDTO {
+
+    private UUID id;
+    private String email;
+    private String firstname;
+    private String lastname;
+    private String roleName;
+
+}
